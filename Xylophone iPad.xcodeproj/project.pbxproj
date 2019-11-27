@@ -13,6 +13,7 @@
 		9F10F141238E7B6000E62DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F13F238E7B6000E62DFB /* Main.storyboard */; };
 		9F10F143238E7B6100E62DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F142238E7B6100E62DFB /* Assets.xcassets */; };
 		9F10F146238E7B6100E62DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F144238E7B6100E62DFB /* LaunchScreen.storyboard */; };
+		9F10F14E238E8D1500E62DFB /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 9F10F14D238E8D1500E62DFB /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9F10F142238E7B6100E62DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F10F145238E7B6100E62DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F10F147238E7B6100E62DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F10F14D238E8D1500E62DFB /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = "Xylophone iPad/Sounds"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				9F10F138238E7B6000E62DFB /* Xylophone iPad */,
+				9F10F14D238E8D1500E62DFB /* Sounds */,
 				9F10F137238E7B6000E62DFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				9F10F146238E7B6100E62DFB /* LaunchScreen.storyboard in Resources */,
 				9F10F143238E7B6100E62DFB /* Assets.xcassets in Resources */,
+				9F10F14E238E8D1500E62DFB /* Sounds in Resources */,
 				9F10F141238E7B6000E62DFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
