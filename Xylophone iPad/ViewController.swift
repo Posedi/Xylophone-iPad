@@ -16,8 +16,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func keyPressed(_ sender: UIButton) {
-        
+        //opacity 50% once the key has been pressed
         sender.alpha = 0.5
+        //bringing opacity back to 100% after 0.2 seconds
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1
+        }
+        
     }
     
     
