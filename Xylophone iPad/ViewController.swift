@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    var player: AVAudioPlayer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +18,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func keyPressed(_ sender: UIButton) {
+        playSound(soundName: sender.currentTitle!)
+        
         //opacity 50% once the key has been pressed
         sender.alpha = 0.5
         //bringing opacity back to 100% after 0.2 seconds
@@ -24,8 +28,10 @@ class ViewController: UIViewController {
         }
         
     }
-    
-    
-
+    func playSound(soundName: String) {
+    let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
+    player = try! AVAudioPlayer(contentsOf: url!)
+    player.play()
+    }
 }
 
